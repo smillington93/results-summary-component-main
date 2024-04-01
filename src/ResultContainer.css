@@ -1,0 +1,54 @@
+.result-container{
+    flex-grow: 1;
+    width: 50%;
+    min-width: 150px;
+    border-radius: 25px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 25px;
+}
+
+@media screen and (max-width: 375px) {
+    .result-container{
+        flex-grow: 1;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+.text{
+    font-family: "Hanken Grotesk", sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.your-result-text{
+    font-weight: 700;
+    font-size: large;
+    color: hsla(0, 0%, 100%, 0.500);
+}
+
+.great-text{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.description-text{
+    font-weight: 500;
+    font-size: small;
+    color: hsla(0, 0%, 100%, 0.500);
+
+}

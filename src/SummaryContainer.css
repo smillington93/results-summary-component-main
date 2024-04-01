@@ -1,0 +1,50 @@
+.summary-container{
+    flex-grow: 1;
+    width: 50%;
+    min-width: 150px;
+    font-family: "Hanken Grotesk", sans-serif;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.summary-heading{
+    font-size: large;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+    text-align: left;
+}
+
+.btn{
+    background-color: hsl(224, 30%, 27%);
+    border: 0;
+    border-radius: 50px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    width: 100%;
+    padding: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  }
+
+@media screen and (max-width: 375px) {
+    .btn{
+        margin-top: 5px;
+    }
+
+    .summary-heading{
+        padding-bottom: 5px;
+    }
+
+    .summary-container{
+        width: 100%;
+    }
+}

@@ -1,0 +1,81 @@
+.widget-container{
+    font-family: "Hanken Grotesk", sans-serif;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 700;
+    padding: 10px;
+}
+
+@media screen and (375px <= width <= 900px)  {
+    .widget-container{
+        font-size: small;
+    }
+}
+
+.widget-container:nth-of-type(n){
+    margin-bottom: 10px;
+}
+
+.widget-container:last-of-type{
+    margin: 0;
+}
+
+.label-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.user-score{
+    color: hsl(224, 30%, 27%);
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.total-label{
+    color: hsla(224, 30%, 27%, 0.5);
+
+}
+
+.red-background{
+    background-color: hsla(0, 100%, 67%, 0.25);
+}
+
+.yellow-background{
+    background-color: hsl(39, 100%, 56%, 0.25)
+}
+
+.green-background{
+    background-color: hsl(166, 100%, 37%, 0.25);
+}
+
+.blue-background{
+    background-color: hsl(234, 85%, 45%, 0.25);
+}
+
+.red-text{
+    color: hsl(0, 100%, 67%);
+}
+
+.yellow-text{
+    color: hsl(39, 100%, 56%);
+}
+
+.green-text{
+    color: hsl(166, 100%, 37%);
+}
+
+.blue-text{
+    color: hsl(234, 85%, 45%);
+}
+
+.label-text{
+    padding-left: 5px;
+}
+
+.total-text{
+    padding-left: 3px;
+}

@@ -1,0 +1,29 @@
+.score-counter{
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 1em;
+    
+}
+
+.score-text{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1em;
+    color: hsla(0, 0%, 100%, 0.500);
+    font-weight: 700;
+    margin-top: 0;
+}
